@@ -1,0 +1,152 @@
+@font-face {
+  font-family: "Figtree";
+  src: url("/assets/fonts/Figtree-VariableFont_wght.ttf");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Figtree";
+  src: url("/assets/fonts/Figtree-VariableFont_wght.ttf");
+  font-weight: 800;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+p {
+  font-size: 1.6rem;
+}
+@media screen and (max-width: 640px) {
+  p {
+    font-size: 1.4rem;
+  }
+}
+
+body {
+  background-color: hsl(47, 88%, 63%);
+  width: 100vw;
+  height: 100Vh;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+}
+
+.hidden {
+  position: absolute;
+  line-height: 0;
+  width: 0;
+  height: 0;
+  z-index: -1;
+  pointer-events: none;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.card {
+  background-color: hsl(0, 0%, 100%);
+  width: 90%;
+  max-width: 384px;
+  padding: 24px;
+  border-radius: 20px;
+  font-family: "Figtree";
+  box-shadow: 12px 12px #000000;
+  border: 1px solid #000;
+}
+.card__image {
+  border-radius: 10px;
+  overflow: hidden;
+  max-height: 200px;
+  height: 200px;
+}
+.card__image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.card__text a {
+  color: currentColor;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.card__text a:hover {
+  color: hsl(47, 88%, 63%);
+}
+.card__text p {
+  color: hsl(0, 0%, 42%);
+  font-weight: 500;
+  line-height: 1.5;
+}
+.card__tag {
+  display: inline-block;
+  background-color: hsl(47, 88%, 63%);
+  font-size: 1.4rem;
+  font-weight: 800;
+  font-family: "Figtree";
+  padding: 6px 12px;
+  border-radius: 4px;
+  margin-top: 24px;
+}
+@media screen and (max-width: 640px) {
+  .card__tag {
+    font-size: 1.2rem;
+  }
+}
+.card__date {
+  display: block;
+  margin: 12px 0;
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+@media screen and (max-width: 640px) {
+  .card__date {
+    font-size: 1.2rem;
+  }
+}
+.card__title {
+  font-size: 2.4rem;
+  font-weight: 800;
+  padding-bottom: 12px;
+}
+@media screen and (max-width: 640px) {
+  .card__title {
+    font-size: 2rem;
+  }
+}
+.card__credits {
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.card__credits figure {
+  max-width: 32px;
+  max-height: 32px;
+}
+.card__credits figure img {
+  width: 100%;
+  height: 100%;
+}
+.card__credits span {
+  font-size: 1.4rem;
+  font-weight: 800;
+}/*# sourceMappingURL=styles.css.map */
