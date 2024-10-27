@@ -47,6 +47,7 @@
         padding: 6px 12px;
         border-radius: 4px;
         margin-top: 24px;
+        color: $tertiary-color;
         @media screen and (max-width: 640px) {
             font-size: 1.2rem;
         }
@@ -57,6 +58,7 @@
         margin: 12px 0;
         font-weight: 500;
         font-size: 1.4rem;
+        color: $tertiary-color;
         @media screen and (max-width: 640px) {
             font-size: 1.2rem;
         }
@@ -66,6 +68,8 @@
         font-size: 2.4rem;
         font-weight: 800;
         padding-bottom: 12px;
+        font-family: "Figtree-bold";
+        color: $tertiary-color;
         @media screen and (max-width: 640px) {
             font-size: 2rem;
         }
@@ -88,6 +92,7 @@
         span {
             font-size: 1.4rem;
             font-weight: 800;
+            color: $tertiary-color;
         }
     }
 }

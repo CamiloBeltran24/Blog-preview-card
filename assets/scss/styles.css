@@ -1,12 +1,24 @@
 @font-face {
   font-family: "Figtree";
-  src: url("/assets/fonts/Figtree-VariableFont_wght.ttf");
+  src: url("../fonts/Figtree-VariableFont_wght.ttf");
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
   font-family: "Figtree";
-  src: url("/assets/fonts/Figtree-VariableFont_wght.ttf");
+  src: url("../fonts/Figtree-VariableFont_wght.ttf");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Figtree-semibold";
+  src: url("../fonts/static/Figtree-SemiBold.ttf");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Figtree-bold";
+  src: url("../fonts/static/Figtree-ExtraBold.ttf");
   font-weight: 800;
   font-style: normal;
 }
@@ -23,6 +35,8 @@ html {
 
 p {
   font-size: 1.6rem;
+  font-family: "Figtree";
+  font-weight: 500;
 }
 @media screen and (max-width: 640px) {
   p {
@@ -105,6 +119,7 @@ main {
   padding: 6px 12px;
   border-radius: 4px;
   margin-top: 24px;
+  color: hsl(0, 0%, 7%);
 }
 @media screen and (max-width: 640px) {
   .card__tag {
@@ -116,6 +131,7 @@ main {
   margin: 12px 0;
   font-weight: 500;
   font-size: 1.4rem;
+  color: hsl(0, 0%, 7%);
 }
 @media screen and (max-width: 640px) {
   .card__date {
@@ -126,6 +142,8 @@ main {
   font-size: 2.4rem;
   font-weight: 800;
   padding-bottom: 12px;
+  font-family: "Figtree-bold";
+  color: hsl(0, 0%, 7%);
 }
 @media screen and (max-width: 640px) {
   .card__title {
@@ -149,4 +167,5 @@ main {
 .card__credits span {
   font-size: 1.4rem;
   font-weight: 800;
+  color: hsl(0, 0%, 7%);
 }/*# sourceMappingURL=styles.css.map */
