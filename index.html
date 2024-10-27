@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,30 +11,30 @@
   <title>Frontend Mentor | Blog preview card</title>
 
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution { font-size: 1.2rem; text-align: center; position: fixed; bottom: 0; left: 50%; transform: translateX(-50%); }
+    .attribution a { color: hsl(228, 45%, 44%); text-decoration: none; font-weight: 800; }
   </style>
 </head>
 <body>
   <main>
-    <div class="container">
-      <h1 class="hidden">Blog preview card</h1>
+    <div class="container" tabindex="0">
+      <h1 class="hidden" aria-hidden="true">Blog preview card</h1>
 
       <article class="card">
 
         <figure class="card__image">
-          <img src="./assets/images/illustration-article.svg" alt="development illustration">
+          <img src="./assets/images/illustration-article.svg" alt="Illustration representing development concepts">
         </figure>
 
         <div class="card__text">
           <span class="card__tag">Learning</span>
           <span class="card__date">Published 21 Dec 2023</span>
-          <a href="#" class=""><h2 class="card__title">HTML & CSS foundations</h2></a>
+          <h2 class="card__title"><a href="#!" class="">HTML & CSS foundations</a></h2>
           <p>These languages are the backbone of every website, defining structure, content, and presentation.</p>
         </div>
 
         <div class="card__credits">
-          <figure><img src="./assets/images/image-avatar.webp" alt="Photo of Greg Hooper"></figure>
+          <figure><img src="./assets/images/image-avatar.webp" alt=""></figure>
           <span>Greg Hooper</span>
         </div>
 
@@ -42,8 +43,8 @@
   </main>
   
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener noreferrer" aria-label="Go to Frontend Mentor">Frontend Mentor</a>. 
+    Coded by <a href="https://www.linkedin.com/in/camilobeltran24/" target="_blank" rel="noopener noreferrer" aria-label="Christian Camilo Beltran's LinkedIn Profile">Christian Camilo Beltran</a>.
   </div>
 </body>
 </html>
