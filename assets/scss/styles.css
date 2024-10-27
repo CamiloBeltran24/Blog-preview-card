@@ -1,12 +1,12 @@
 @font-face {
   font-family: "Figtree";
-  src: url("/assets/fonts/Figtree-VariableFont_wght.ttf");
+  src: url("./assets/fonts/Figtree-VariableFont_wght.ttf");
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
   font-family: "Figtree";
-  src: url("/assets/fonts/Figtree-VariableFont_wght.ttf");
+  src: url("./assets/fonts/Figtree-VariableFont_wght.ttf");
   font-weight: 800;
   font-style: normal;
 }
@@ -67,7 +67,7 @@ main {
   padding: 24px;
   border-radius: 20px;
   font-family: "Figtree";
-  box-shadow: 12px 12px #000000;
+  box-shadow: 8px 8px #000000;
   border: 1px solid #000;
 }
 .card__image {
